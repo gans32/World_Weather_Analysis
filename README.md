@@ -1,1 +1,3 @@
 # World_Weather_Analysis
+
+The purpose of this project is to provide a thorough travel itinerary using gmaps API. Using citipy and open weather map, I got a list of cities nearest to 2000 random sets of coordinates, and made a DataFrame of information about each city. After prompting the user to input a minimum and maximum desired temperature for their stay, I used gmaps to plot all of the available cities within the temperature range. I then chose four cities (all in Mexico in this case) for the trip itinerary, and used gmaps directions layer to show routes between the cities. Markers showed information on the cities and weather.
